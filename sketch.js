@@ -1,10 +1,14 @@
 function setup(){
-    createCanvas(1280 ,720);
+    wx = window.outerWidth;
+    wy = window.outerHeight-170;
+
+
+    createCanvas(wx ,wy);
     var ran1= random(500);
     var ran2= random(400);
     var ran3= random(450);
   
-
+ 
     for (var i=0; i<ran1; i++){
         var R= random(255);
         var G= random(255);
