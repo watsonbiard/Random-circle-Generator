@@ -1,6 +1,6 @@
 function setup(){
     wx = window.outerWidth;
-    wy = window.outerHeight-170;
+    wy = window.outerHeight-75;
 
 
     createCanvas(wx ,wy);
